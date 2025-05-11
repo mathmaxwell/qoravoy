@@ -1,260 +1,274 @@
 @media (max-width: 1200px) {
-    .header_top {
-        padding: 12px;
-    }
+	.header_top {
+		padding: 12px;
+	}
 
-    .header_list {
-        gap: 50px;
-    }
+	.header_list {
+		gap: 50px;
+	}
 
-    .title_and_logo {
-        font-size: 36px;
-    }
+	.title_and_logo {
+		font-size: 36px;
+	}
 
-    .header_link, .aboutMe_minititle {
-        font-size: 24px;
-    }
+	.header_link,
+	.aboutMe_minititle {
+		font-size: 24px;
+	}
 
-    .intro {
-        height: 535px;
-    }
+	.intro {
+		height: 535px;
+	}
 
-    .intro_title {
-        margin-bottom: 91px;
-    }
-    .aboutMe {
-        padding: 25px 0 100px;
-    }
-    .aboutMe_title {
-        margin: 0 auto 35px;
-    }
-    .aboutMe_box {
-        justify-content: space-around;
-    }
-    .aboutMe_img {
-        width: 465px;
-    }
-    .aboutMe_textbox {
-        width: 465px;
-        gap: 50px;
-    }
+	.intro_title {
+		margin-bottom: 91px;
+	}
+	.aboutMe {
+		padding: 25px 0 100px;
+	}
+	.aboutMe_title {
+		margin: 0 auto 35px;
+	}
+	.aboutMe_box {
+		justify-content: space-around;
+	}
+	.aboutMe_img {
+		width: 465px;
+	}
+	.aboutMe_textbox {
+		width: 465px;
+		gap: 50px;
+	}
+	.myWorks_cardbox {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
 
 @media (max-width: 992px) {
-    .header_top {
-        padding: 10px;
-    }
+	.myWorks_cardbox {
+		display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+	}
+	.header_top {
+		padding: 10px;
+	}
 
-    .header_list {
-        gap: 41px;
-    }
+	.header_list {
+		gap: 41px;
+	}
 
-    .title_and_logo,
-    .intro_link {
-        font-size: 32px;
-    }
-    .intro_link {
-        padding: 9px 21px;
-    }
+	.title_and_logo,
+	.intro_link {
+		font-size: 32px;
+	}
+	.intro_link {
+		padding: 9px 21px;
+	}
 
-    .header_link, .aboutMe_minititle {
-        font-size: 22px;
-    }
+	.header_link,
+	.aboutMe_minititle {
+		font-size: 22px;
+	}
 
-    .intro {
-        height: 443px;
-    }
+	.intro {
+		height: 443px;
+	}
 
-    .intro_title {
-        margin-bottom: 75px;
-    }
-    .aboutMe {
-        padding: 20px 0 75px;
-    }
-    .aboutMe_title {
-        margin: 0 auto 30px;
-    }
-    .aboutMe_img {                                 
-        width: 400px;
-    }
-    .aboutMe_textbox {
-        width: 400px;
-        gap: 40px;
-    }
-    .aboutMe_text {
-        font-size: 17px;
-    }
+	.intro_title {
+		margin-bottom: 75px;
+	}
+	.aboutMe {
+		padding: 20px 0 75px;
+	}
+	.aboutMe_title {
+		margin: 0 auto 30px;
+	}
+	.aboutMe_img {
+		width: 400px;
+	}
+	.aboutMe_textbox {
+		width: 400px;
+		gap: 40px;
+	}
+	.aboutMe_text {
+		font-size: 17px;
+	}
 }
 
 @media (max-width: 768px) {
-    .header_top {
-        padding: 8px;
-    }
+	.header_top {
+		padding: 8px;
+	}
 
-    .header_nav {
-        gap: 12px;
-    }
+	.header_nav {
+		gap: 12px;
+	}
 
-    .header_list {
-        gap: 32px;
-    }
+	.header_list {
+		gap: 32px;
+	}
 
-    .title_and_logo,
-    .intro_link {
-        font-size: 28px;
-    }
-    .intro_link {
-        padding: 8px 19px;
-    }
+	.title_and_logo,
+	.intro_link {
+		font-size: 28px;
+	}
+	.intro_link {
+		padding: 8px 19px;
+	}
 
-    .header_link, .aboutMe_minititle {
-        font-size: 20px;
-    }
+	.header_link,
+	.aboutMe_minititle {
+		font-size: 20px;
+	}
 
-    .intro {
-        height: 343px;
-    }
+	.intro {
+		height: 343px;
+	}
 
-    .intro_title {
-        margin-bottom: 58px;
-    }
-    .aboutMe {
-        padding: 15px 0 50px;
-    }
-    .aboutMe_title {
-        margin: 0 auto 25px;
-    }
-    .aboutMe_box {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .aboutMe_img {                                 
-        width: 375px;
-    }
-    .aboutMe_textbox {
-        width: 400px;
-        gap: 10px;
-    }
-    .aboutMe_text, .aboutMe_minititle {
-        text-align: center;
-    }
-
+	.intro_title {
+		margin-bottom: 58px;
+	}
+	.aboutMe {
+		padding: 15px 0 50px;
+	}
+	.aboutMe_title {
+		margin: 0 auto 25px;
+	}
+	.aboutMe_box {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.aboutMe_img {
+		width: 375px;
+	}
+	.aboutMe_textbox {
+		width: 400px;
+		gap: 10px;
+	}
+	.aboutMe_text,
+	.aboutMe_minititle {
+		text-align: center;
+	}
 }
 
 @media (max-width: 650px) {
-    .header_top {
-        padding: 7px;
-    }
+	.header_top {
+		padding: 7px;
+	}
 
-    .header_nav {
-        gap: 10px;
-    }
+	.header_nav {
+		gap: 10px;
+	}
 
-    .header_list {
-        gap: 27px;
-    }
+	.header_list {
+		gap: 27px;
+	}
 
-    .title_and_logo,
-    .intro_link {
-        font-size: 24px;
-    }
-    .intro_link {
-        padding: 7px 17px;
-    }
+	.title_and_logo,
+	.intro_link {
+		font-size: 24px;
+	}
+	.intro_link {
+		padding: 7px 17px;
+	}
 
-    .header_link, .aboutMe_minititle {
-        font-size: 18px;
-    }
+	.header_link,
+	.aboutMe_minititle {
+		font-size: 18px;
+	}
 
-    .intro {
-        height: 290px;
-    }
+	.intro {
+		height: 290px;
+	}
 
-    .intro_title {
-        margin-bottom: 49px;
-    }
-    .aboutMe {
-        padding: 10px 0 40px;
-    }
-    .aboutMe_title {
-        margin: 0 auto 20px;
-    }
+	.intro_title {
+		margin-bottom: 49px;
+	}
+	.aboutMe {
+		padding: 10px 0 40px;
+	}
+	.aboutMe_title {
+		margin: 0 auto 20px;
+	}
 }
 
 @media (max-width: 480px) {
-    .header_top {
-        padding: 5px;
-    }
+	.header_top {
+		padding: 5px;
+	}
 
-    .header_nav {
-        gap: 8px;
-    }
-    .header_link, .aboutMe_minititle {
-        font-size: 16px;
-    }
-    .header_list {
-        gap: 10px;
-    }
+	.header_nav {
+		gap: 8px;
+	}
+	.header_link,
+	.aboutMe_minititle {
+		font-size: 16px;
+	}
+	.header_list {
+		gap: 10px;
+	}
 
-    .title_and_logo,
-    .intro_link {
-        font-size: 18px;
-    }
-    .intro_link {
-        padding: 6px 15px;
-    }
-    .intro {
-        height: 214px;
-    }
+	.title_and_logo,
+	.intro_link {
+		font-size: 18px;
+	}
+	.intro_link {
+		padding: 6px 15px;
+	}
+	.intro {
+		height: 214px;
+	}
 
-    .intro_title {
-        margin-bottom: 36px;
-    }
-    .aboutMe {
-        padding: 7px 0 25px;
-    }
-    .aboutMe_title {
-        margin: 0 auto 15px;
-    }
-    .aboutMe_text {
-        font-size: 15px;
-    }
-    .aboutMe_img {                                 
-        width: 350px;
-    }
-    .aboutMe_textbox {
-        width: 350px;
-        gap: 10px;
-    }
+	.intro_title {
+		margin-bottom: 36px;
+	}
+	.aboutMe {
+		padding: 7px 0 25px;
+	}
+	.aboutMe_title {
+		margin: 0 auto 15px;
+	}
+	.aboutMe_text {
+		font-size: 15px;
+	}
+	.aboutMe_img {
+		width: 350px;
+	}
+	.aboutMe_textbox {
+		width: 350px;
+		gap: 10px;
+	}
 }
 
 @media (max-width: 320px) {
-    .header_top {
-        padding: 3px;
-    }
+	.header_top {
+		padding: 3px;
+	}
 
-    .header_nav {
-        gap: 5px;
-    }
+	.header_nav {
+		gap: 5px;
+	}
 
-    .header_list {
-        gap: 13px;
-    }
+	.header_list {
+		gap: 13px;
+	}
 
-    .intro {
-        height: 142px;
-    }
+	.intro {
+		height: 142px;
+	}
 
-    .intro_title {
-        margin-bottom: 24px;
-    }
-    .aboutMe {
-        padding: 5px 0 15px;
-    }
-    .aboutMe_title {
-        margin: 0 auto 10px;
-    }
-    .aboutMe_text {
-        font-size: 14px;
-    }
+	.intro_title {
+		margin-bottom: 24px;
+	}
+	.aboutMe {
+		padding: 5px 0 15px;
+	}
+	.aboutMe_title {
+		margin: 0 auto 10px;
+	}
+	.aboutMe_text {
+		font-size: 14px;
+	}
 }
